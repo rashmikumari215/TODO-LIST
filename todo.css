@@ -1,0 +1,28 @@
+#ulTasks li.done {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+h1 {
+	font-size: 80px;
+	color: red;
+	
+}
+
+div label.inpNewTask {
+
+	  color: lawngreen;
+	  font-size: 20px;
+	  animation-name: spin 5s infinite;
+	 	animation-timing-function: ease-in;
+}
+@keyframes spin {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+ 
+body{
+	background: black;
+} 
+
+
